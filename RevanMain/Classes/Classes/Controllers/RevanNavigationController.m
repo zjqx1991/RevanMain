@@ -1,6 +1,6 @@
 //
 //  RevanNavigationController.m
-//  RevanMainModule_Example
+//  RevanMain_Example
 //
 //  Created by 紫荆秋雪 on 2017/11/28.
 //  Copyright © 2017年 Revan. All rights reserved.
@@ -58,7 +58,7 @@
         
         //统一设置返回按钮
         UIImage *img = [UIImage revan_assetImageName:@"btn_back_n"
-                               inDirectoryBundleName:@"RevanMainModule"
+                               inDirectoryBundleName:RevanDirectoryBundleName
                                         commandClass:[self class]];
         viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:img style:0 target:self action:@selector(back)];
         viewController.hidesBottomBarWhenPushed = YES;

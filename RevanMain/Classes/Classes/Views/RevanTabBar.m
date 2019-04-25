@@ -1,6 +1,6 @@
 //
 //  RevanTabBar.m
-//  RevanMainModule_Example
+//  RevanMain_Example
 //
 //  Created by 紫荆秋雪 on 2017/11/27.
 //  Copyright © 2017年 Revan. All rights reserved.
@@ -36,7 +36,7 @@
     // 设置样式, 去除tabbar上面的黑线
 //    self.barStyle = UIBarStyleBlack;
     // 设置tabbar 背景图片
-    self.backgroundImage = [UIImage revan_assetImageName:@"tabbar_bg" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
+    self.backgroundImage = [UIImage revan_assetImageName:@"tabbar_bg" inDirectoryBundleName:RevanDirectoryBundleName commandClass:[self class]];
 }
 
 

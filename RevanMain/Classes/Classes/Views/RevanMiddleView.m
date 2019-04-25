@@ -1,6 +1,6 @@
 //
 //  RevanMiddleView.m
-//  RevanMainModule_Example
+//  RevanMain_Example
 //
 //  Created by 紫荆秋雪 on 2017/11/27.
 //  Copyright © 2017年 Revan. All rights reserved.
@@ -22,7 +22,7 @@
  @param Class xib当前类
  @param xibName xib文件名称
  */
-#define RevanLoadingCurrentNib(Class, xibName) [[[NSBundle bundleForClass:Class] loadNibNamed:[NSString stringWithFormat:@"%@/%@", @"RevanMainModule.bundle", xibName] owner:nil options:nil] firstObject]
+#define RevanLoadingCurrentNib(Class, xibName) [[[NSBundle bundleForClass:Class] loadNibNamed:[NSString stringWithFormat:@"%@/%@", @"RevanMain.bundle", xibName] owner:nil options:nil] firstObject]
 
 
 @interface RevanMiddleView()
@@ -101,11 +101,11 @@ static RevanMiddleView *share_Instance;
     // 监听播放图片的通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setPlayImage:) name:@"playImage" object:nil];
     
-    self.middleBgNormalImageView.image = [UIImage revan_assetImageName:@"tabbar_np_normal" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
+    self.middleBgNormalImageView.image = [UIImage revan_assetImageName:@"tabbar_np_normal" inDirectoryBundleName:RevanDirectoryBundleName commandClass:[self class]];
     
-    self.middleBgShadowImageView.image = [UIImage revan_assetImageName:@"tabbar_np_shadow" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
+    self.middleBgShadowImageView.image = [UIImage revan_assetImageName:@"tabbar_np_shadow" inDirectoryBundleName:RevanDirectoryBundleName commandClass:[self class]];
     
-    self.middleBgPlayImageView.image = [UIImage revan_assetImageName:@"tabbar_np_playshadow" inDirectoryBundleName:@"RevanMainModule" commandClass:[self class]];
+    self.middleBgPlayImageView.image = [UIImage revan_assetImageName:@"tabbar_np_playshadow" inDirectoryBundleName:RevanDirectoryBundleName commandClass:[self class]];
 }
 
 -(void)layoutSubviews {
