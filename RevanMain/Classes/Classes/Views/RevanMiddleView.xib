@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RevanMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bWg-eE-nyh">
+                    <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9ZJ-Yw-Gcx">
+                            <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="n7a-re-ERt">
+                            <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bun-Qe-fuP">
+                            <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q7k-H2-KEE">
+                            <rect key="frame" x="11" y="11" width="45" height="46"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEh-Nd-2Xg">
+                            <rect key="frame" x="0.0" y="0.0" width="67" height="68"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="9ZJ-Yw-Gcx" secondAttribute="bottom" id="BBi-3R-w6N"/>
+                        <constraint firstItem="9ZJ-Yw-Gcx" firstAttribute="leading" secondItem="bWg-eE-nyh" secondAttribute="leading" id="BTo-QI-eT7"/>
+                        <constraint firstItem="n7a-re-ERt" firstAttribute="leading" secondItem="bWg-eE-nyh" secondAttribute="leading" id="DsX-0C-F19"/>
+                        <constraint firstItem="BEh-Nd-2Xg" firstAttribute="leading" secondItem="bWg-eE-nyh" secondAttribute="leading" id="Fm3-XU-yLN"/>
+                        <constraint firstAttribute="bottom" secondItem="BEh-Nd-2Xg" secondAttribute="bottom" id="HvX-jt-5yx"/>
+                        <constraint firstAttribute="trailing" secondItem="9ZJ-Yw-Gcx" secondAttribute="trailing" id="LpS-4C-ein"/>
+                        <constraint firstAttribute="trailing" secondItem="n7a-re-ERt" secondAttribute="trailing" id="M3U-MG-RB5"/>
+                        <constraint firstAttribute="trailing" secondItem="Bun-Qe-fuP" secondAttribute="trailing" id="OAw-uN-VCe"/>
+                        <constraint firstAttribute="bottom" secondItem="n7a-re-ERt" secondAttribute="bottom" id="OMo-sH-2Df"/>
+                        <constraint firstItem="Bun-Qe-fuP" firstAttribute="top" secondItem="bWg-eE-nyh" secondAttribute="top" id="P3E-DR-saX"/>
+                        <constraint firstAttribute="trailing" secondItem="q7k-H2-KEE" secondAttribute="trailing" constant="11" id="Pxd-AR-ikI"/>
+                        <constraint firstAttribute="bottom" secondItem="Bun-Qe-fuP" secondAttribute="bottom" id="S3f-SO-jhB"/>
+                        <constraint firstItem="Bun-Qe-fuP" firstAttribute="leading" secondItem="bWg-eE-nyh" secondAttribute="leading" id="SAE-Hc-D2y"/>
+                        <constraint firstItem="n7a-re-ERt" firstAttribute="top" secondItem="bWg-eE-nyh" secondAttribute="top" id="TgE-PJ-EN6"/>
+                        <constraint firstAttribute="bottom" secondItem="q7k-H2-KEE" secondAttribute="bottom" constant="11" id="UZL-rQ-Ttq"/>
+                        <constraint firstItem="q7k-H2-KEE" firstAttribute="top" secondItem="bWg-eE-nyh" secondAttribute="top" constant="11" id="iok-y0-Qdz"/>
+                        <constraint firstAttribute="trailing" secondItem="BEh-Nd-2Xg" secondAttribute="trailing" id="lw0-68-qfk"/>
+                        <constraint firstItem="9ZJ-Yw-Gcx" firstAttribute="top" secondItem="bWg-eE-nyh" secondAttribute="top" id="n7E-fr-F01"/>
+                        <constraint firstItem="q7k-H2-KEE" firstAttribute="leading" secondItem="bWg-eE-nyh" secondAttribute="leading" constant="11" id="r76-Yj-50T"/>
+                        <constraint firstItem="BEh-Nd-2Xg" firstAttribute="top" secondItem="bWg-eE-nyh" secondAttribute="top" id="xpq-Kf-DQJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="9jk-49-2AA"/>
+                <constraint firstAttribute="trailing" secondItem="bWg-eE-nyh" secondAttribute="trailing" id="Cv4-mJ-qH0"/>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="IBe-Xe-xbA"/>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Mbq-qJ-N6J"/>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="e7C-F8-4G4"/>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="h5Y-ND-fP8"/>
+                <constraint firstAttribute="bottom" secondItem="bWg-eE-nyh" secondAttribute="bottom" id="hHB-q0-FLH"/>
+                <constraint firstItem="bWg-eE-nyh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nUJ-Wh-ufx"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="middleBgNormalImageView" destination="n7a-re-ERt" id="7cL-eN-9nU"/>
+                <outlet property="middleBgPlayImageView" destination="Bun-Qe-fuP" id="LVH-xc-X4M"/>
+                <outlet property="middleBgShadowImageView" destination="9ZJ-Yw-Gcx" id="1Fr-He-TiK"/>
+                <outlet property="middleCurrentPlayingImageView" destination="q7k-H2-KEE" id="PEJ-pb-9Wa"/>
+                <outlet property="playButton" destination="BEh-Nd-2Xg" id="Xno-af-bIB"/>
+            </connections>
+            <point key="canvasLocation" x="-120.5" y="239"/>
+        </view>
+    </objects>
+</document>

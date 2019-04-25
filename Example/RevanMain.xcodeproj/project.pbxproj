@@ -302,10 +302,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-RevanMain_Example/Pods-RevanMain_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RevanKits/RevanKits.framework",
 				"${BUILT_PRODUCTS_DIR}/RevanMain/RevanMain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevanKits.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevanMain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,23 @@
+PODS:
+  - RevanKits/Category (2.0.8)
+  - RevanMain (0.1.0):
+    - RevanKits/Category
+
+DEPENDENCIES:
+  - RevanMain (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RevanKits
+
+EXTERNAL SOURCES:
+  RevanMain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RevanKits: 462dfb24c9b32ea424365c4b55a370e1f530432d
+  RevanMain: ecc368cbcbabc0ecd0bc855913efb8abd0749fe4
+
+PODFILE CHECKSUM: 68d079fd074ee26de05e6035356bf068890c18aa
+
+COCOAPODS: 1.7.0.beta.3

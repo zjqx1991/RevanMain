@@ -1,0 +1,6 @@
+framework module RevanMain {
+  umbrella header "RevanMain-umbrella.h"
+
+  export *
+  module * { export * }
+}
